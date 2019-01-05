@@ -52,7 +52,8 @@ long_description = (
 requires = [
     'setuptools',
     'click',
-    'sphinx-click' 
+    'sphinx-click',
+    'texttable'
 ]
 
 extras_require = {
