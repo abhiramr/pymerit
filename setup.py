@@ -53,7 +53,8 @@ requires = [
     'setuptools',
     'click',
     'sphinx-click',
-    'texttable'
+    'texttable',
+    'coverage' 
 ]
 
 extras_require = {
