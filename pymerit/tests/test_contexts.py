@@ -63,6 +63,4 @@ def test_default_contexts_invalid_5(default_merit):
         default_merit.add_context(c)
         
     assert "Missing: description" in str(exc) 
-        
-        
-    
+

@@ -50,11 +50,12 @@ long_description = (
     read_content(os.path.join("docs/source", "CHANGELOG.rst")))
 
 requires = [
+    'pyyaml', 
     'setuptools',
     'click',
     'sphinx-click',
     'texttable',
-    'coverage' 
+    'coverage'
 ]
 
 extras_require = {
