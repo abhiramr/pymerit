@@ -55,7 +55,10 @@ requires = [
     'click',
     'sphinx-click',
     'texttable',
-    'coverage'
+    'pandas',
+    'pytest-cov',
+    'PyYAML',
+    'python-coveralls'
 ]
 
 extras_require = {
